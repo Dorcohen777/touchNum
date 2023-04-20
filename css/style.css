@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-width: 2px;
+    width: 300px;
+    height: 70px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    background-color: antiquewhite;
+    transition: background-color 0.5s ease;
+}
+
+td:hover {
+    background-color:darkseagreen;
+    color: whitesmoke;
+    
+}
+
+.span-victory {
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-buttons button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.div-buttons button:hover {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
